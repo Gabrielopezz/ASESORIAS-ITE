@@ -5,6 +5,12 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+
+    <img src="{{ url_for('static', filename='images/logo_left.png') }}" class="top-left" alt="Imagen Izquierda">
+
+    <!-- Imagen en la esquina superior derecha -->
+    <img src="{{ url_for('static', filename='images/logo_right.png') }}" class="top-right" alt="Imagen Derecha">
+    
     <div class="login-header">
         <h1>ITE ASESORIAS</h1>
         <h2>Iniciar Sesión como {{ rol }}</h2>
